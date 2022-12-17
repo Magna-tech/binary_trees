@@ -10,16 +10,8 @@ binary_tree_t *binary_tree_sibling(binary_tree_t *node)
 	binary_tree_t *par;
 	binary_tree_t *sibling;
 
-	if (node == NULL)
+	if (node == NULL || node->parent == NULL)
 		return (NULL);
-	else if (node->parent == NULL)
-		return (NULL);
-	par = (binary_tree_t *) malloc(sizeof(binary_tree_t));
-	sibling = (binary_tree_t *) malloc(sizeof(binary_tree_t));
-
-	if (par == NULL || sibling == NULL)
-		return (NULL);
-
 	par = node->parent;
 	if (par->left == node && par->right != NULL)
 		sibling = par->right;
