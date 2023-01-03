@@ -11,4 +11,10 @@ A function that deletes a binary tree
 ## 4. Is leaf
 A function that checks if a given node is a leaf
 ## 5. Is root
-A function that checks if a given node is a root of a binary tree
+A function that checks if a given node is a root of a binary treei
+## 6.Preorder
+Print a binary tree using preorder traversal
+## 7.Inorder
+Print a tree using inorder traversal
+## 8.Postorder
+Print a binary tree using postorder traversal
