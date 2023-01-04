@@ -18,3 +18,7 @@ Print a binary tree using preorder traversal
 Print a tree using inorder traversal
 ## 8.Postorder
 Print a binary tree using postorder traversal
+## 9.Binary tree height
+A function that gets the height of a binary tree
+## 10.depth
+A function that gets the depth of a binary tree
