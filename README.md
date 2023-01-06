@@ -22,3 +22,9 @@ Print a binary tree using postorder traversal
 A function that gets the height of a binary tree
 ## 10.depth
 A function that gets the depth of a binary tree
+## 11.size
+A function that returns the size of a binary tree
+## 12.Leaves
+A function that returns the leafs in a binary tree
+## 13.Node count
+A function that counts nodes with at least 1 child
